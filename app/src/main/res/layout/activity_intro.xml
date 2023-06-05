@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.IntroActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/_54sdp"
+        android:layout_marginEnd="@dimen/_31sdp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/intro_tv_skip"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="#898989"/>
+<androidx.viewpager2.widget.ViewPager2
+    android:id="@+id/viewpager"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_90sdp"
+    />
+    <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+        android:id="@+id/intro_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:dotsColor="#69A03A"
+        app:dotsStrokeColor="#69A03A"
+        app:dotsCornerRadius="50dp"
+        app:dotsSize="@dimen/_8sdp"
+        app:dotsSpacing="@dimen/_8sdp"
+        app:dotsStrokeWidth="2dp"
+        android:layout_marginTop="@dimen/_40sdp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_89sdp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/intro_button_shape"
+        android:text="@string/intro_button"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="#FFFFFF"
+        android:padding="@dimen/_5sdp"
+        android:fontFamily="@font/poppins_medium"
+        />
+
+</LinearLayout>

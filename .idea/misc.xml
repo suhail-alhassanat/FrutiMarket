@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/drawable/et_login_shape.xml" value="0.215" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.225" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/drawable/intro_button_shape.xml" value="0.215" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/drawable/search_view_bg.xml" value="0.2315" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/layout/activity_intro.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/layout/activity_splach.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/layout/custom_account_choices_item.xml" value="0.125" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/layout/custom_category_item.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/layout/custom_product_item.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/layout/fragment_accout.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/layout/fragment_cart.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/layout/fragment_favourite.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/layout/fragment_intro_first.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/layout/fragment_intro_second.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/layout/fragment_intro_third.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/FrutiMarket/app/src/main/res/menu/bottom_navigate_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

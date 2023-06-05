@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intro_tv_skip">تجاوز</string>
+    <string name="intro_button">التالي</string>
+    <string name="e_shopping">تسوق إلكتروني</string>
+    <string name="explore_top_organic"><![CDATA[Explore  top organic fruits & grab them]]></string>
+    <string name="deliver_on_the_way">الطلب في الطريق</string>
+    <string name="get_your_order">أحصل على طلبك بتوصيل سريع</string>
+    <string name="deliver_arrived">وصل الطلب</string>
+    <string name="order_is_arrived">الطلب وصل لمكانك</string>
+    <string name="btn_login">تسجيل دخول</string>
+    <string name="et_password_hint">أدخل كلمة المرور</string>
+    <string name="et_email_hint">أدخل الإيميل</string>
+    <string name="or">أو</string>
+    <string name="tv_sign_up">أنشئ حساب جديد</string>
+    <string name="et_name_hint_register">أدخل اسمك</string>
+    <string name="btn_register">تسجيل</string>
+    <string name="already_have_account">لديك حساب بالفعل</string>
+    <string name="tv_login">تسجيل دخول</string>
+    <string name="rb_male">ذكر</string>
+    <string name="rb_female">أنثى</string>
+    <string name="tv_gender">الجنس</string>
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_cart">عربة الشراء</string>
+    <string name="nav_account">الحساب</string>
+    <string name="app_name">متجر فواكه</string>
+    <string name="nav_fav">المفضلة</string>
+</resources>

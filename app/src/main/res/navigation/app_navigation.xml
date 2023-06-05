@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/nav_home">
+<fragment android:id="@+id/nav_home"
+    android:name="com.suhail.frutimarket.ui.fragments.HomeFragment"
+    android:label="@string/nav_home"
+    tools:layout="@layout/fragment_home"/>
+
+    <fragment
+    android:id="@+id/nav_fav"
+    android:name="com.suhail.frutimarket.ui.fragments.FavouriteFragment"
+    android:label="@string/nav_fav"
+    tools:layout="@layout/fragment_favourite"/>
+
+    <fragment android:id="@+id/nav_cart"
+    android:name="com.suhail.frutimarket.ui.fragments.CartFragment"
+    android:label="@string/nav_cart"
+    tools:layout="@layout/fragment_cart"/>
+
+    <fragment android:id="@+id/nav_account"
+    android:name="com.suhail.frutimarket.ui.fragments.AccoutFragment"
+    android:label="@string/nav_account"
+    tools:layout="@layout/fragment_accout"/>
+</navigation>

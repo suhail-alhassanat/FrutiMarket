@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.HomeFragment"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_34sdp"
+            android:layout_alignParentTop="true"
+            android:background="#69A03A" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentTop="true"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_17sdp"
+            android:background="@drawable/search_view_bg"
+            android:inputType="text"
+            android:elevation="@dimen/_8sdp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_categories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_search"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <TextView
+            android:id="@+id/tv_category_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_26sdp"
+            android:layout_below="@id/rv_categories"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/_26sdp"
+            android:text="Category 1"
+            android:textSize="@dimen/_16ssp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="#141313"/>
+        <TextView
+            android:id="@+id/tv_about_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_below="@id/tv_category_name"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/_26sdp"
+            android:text="Category 1 details"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/poppins"
+            android:textColor="#141313"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_products1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_about_category"
+            android:layout_alignParentStart="true"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_17sdp"
+            android:orientation="horizontal" />
+<!--        part two of page -->
+
+        <TextView
+            android:id="@+id/tv_category_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_36sdp"
+            android:layout_below="@id/rv_products1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/_26sdp"
+            android:text="Category 1"
+            android:textSize="@dimen/_16ssp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="#141313"/>
+        <TextView
+            android:id="@+id/tv_about_category2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_below="@id/tv_category_name2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/_26sdp"
+            android:text="Category 1 details"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/poppins"
+            android:textColor="#141313"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_products2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_17sdp"
+            android:layout_below="@id/tv_about_category2"
+            android:layout_alignParentStart="true"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            />
+
+    </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>

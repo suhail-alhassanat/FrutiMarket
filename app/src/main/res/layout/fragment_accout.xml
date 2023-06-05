@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.AccoutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:background="#69A03A"
+        />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userProfile_img"
+            android:layout_width="@dimen/_85sdp"
+            android:layout_height="@dimen/_85sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_40sdp"
+            tools:src="@color/white" />
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manish Chutake"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16ssp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_below="@id/userProfile_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_10sdp"/>
+        <TextView
+            android:id="@+id/tv_user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="manishuxuid@gmail.com"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/poppins"
+            android:layout_below="@id/tv_user_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_5sdp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_options"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tv_user_email"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/_15sdp" />
+
+    </RelativeLayout>
+</FrameLayout>
